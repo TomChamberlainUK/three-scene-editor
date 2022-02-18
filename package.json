@@ -8,6 +8,7 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist",
     "postinstall": "npx patch-package"
   },
   "keywords": [],
@@ -21,6 +22,7 @@
     "@tweakpane/core": "^1.0.8",
     "@types/three": "^0.137.0",
     "css-loader": "^6.5.1",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.2.6",
