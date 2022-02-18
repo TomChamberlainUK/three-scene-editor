@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": "./",
+    "paths": {
+      "helpers/*": ["src/helpers/*"],
+      // "assets/*": ["src/assets/*"],
+      // "images/*": ["src/images/*"],
+      // "materials/*": ["src/materials/*"],
+    },
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "ES6",
+    "target": "ES5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node"
+  }
+}
